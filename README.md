@@ -20,7 +20,7 @@ message or more commonly releasing a lock.
    $ git clone https://github.com/cs1730/csx730-deadlock.git
    ```
 
-1. Change into the `csx730-libdis` directory that was just created and look around. There should be a
+1. Change into the `csx730-deadlock` directory that was just created and look around. There should be a
    couple different files already present.
    
 ### Activity Questions
