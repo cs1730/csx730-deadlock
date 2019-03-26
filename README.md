@@ -1,13 +1,8 @@
-# csx730-deadlock Deadlock Activity
+# csx730-deadlock Deadlock Avoidance Activity
 
 In a multiprogramming environment, a **deadlock** is a state in which each processes or thread
 is waiting for another processes or thread, including itself, to take action, such as sending a 
 message or more commonly releasing a lock.
-
-### References
-
-* [Implementing a Mutex](https://gist.github.com/mepcotterell/8df8e9c742fa6f926c39667398846048)
-* [Implementing a Semaphore](https://gist.github.com/mepcotterell/6f0a779befe388ab822764255e3776ae)
 
 ### Getting Started
 
@@ -32,36 +27,21 @@ find the assembly notes provided in recent lecture modules on eLC useful.
    for each group member. Then, **sign the piece of paper that your instructor has at the front 
    of the room.**
    
-1. In `main.c` write and test simple C program that prints the numbers `0` through `100` (exclusive)
-   using `setjmp` and `longjmp` instead of loops or recursion. Your code should make use of the
-   return value of `setjmp` to increment the number. A simple `Makefile` is provided to make 
-   compiling easier.
+1. Experiment with `deadlock.c`. 
 
 1. Make sure your program compiles, assembles, and links before continuing.
-
-1. In `SUBMISSION.md`, include a list of the list symbols from `main.o` and `main`.
-
-1. In `SUBMISSION.md`, include a list of the shared library dependencies for `main`.
 
 **CHECKPOINT:** Ask your instructor if you have any questions.
 
 1. In `SUBMISSION.md`, indicate the file where the machine code for `setjmp` is defined.
    You should probably note the command(s) you used to find it.
    
-1. Use `objdump` or `gdb` to find the assembly code for `setjmp`. Follow the chain of
-   calls or jumps that are all labeled `setjmp` or similar and include their assembly in the
-   `SETJMP.md` file. You may copy/paste.
-   
-1. Use `objdump` or `gdb` to find the assembly code for `longjmp`. Follow the chain of
-   calls or jumps that are all labeled `longjmp` or similar and include their assembly in the
-   `LONGJMP.md` file. You may copy/paste.
-
 1. **Before 3:15 PM (or 11:55 for partial)**, double check that your group member names are listed in 
    `SUBMISSION.md` as well as the piece of paper that your instructor has at the front of the room, then
    submit your activity attempt using the `submit` command. From the parent directory:
    
    ```
-   $ submit csx730-libdis csx730
+   $ submit csx730-deadlock csx730
    ```
 
 <hr/>
