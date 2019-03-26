@@ -7,13 +7,13 @@
 
 ## Necessary Conditions
 
-1. **CONDITON.** Definition.
+1. **CONDITION.** Definition.
 
-2. **CONDITON.** Definition.
+2. **CONDITION.** Definition.
 
-3. **CONDITON.** Definition.
+3. **CONDITION.** Definition.
 
-4. **CONDITON.** Definition.
+4. **CONDITION.** Definition.
 
 ## Resource Allocation Graphs
 
@@ -53,11 +53,11 @@ SAMPLE HERE
 ```
 
 ```
-EDEGES IN RESULTING RAG HERE
+EDGES IN INDUCED RAG HERE
 ```
 
 ```
-CYCLE
+CYCLE HERE
 ```
 
 ### `NTHREAD = 4`
@@ -67,11 +67,11 @@ SAMPLE HERE
 ```
 
 ```
-EDEGES IN RESULTING RAG HERE
+EDGES IN INDUCED RAG HERE
 ```
 
 ```
-CYCLE
+CYCLE HERE
 ```
 
 ### `NTHREAD = 5`
@@ -81,14 +81,30 @@ SAMPLE HERE
 ```
 
 ```
-EDEGES IN RESULTING RAG HERE
+EDGES IN INDUCED RAG HERE
 ```
 
 ```
-CYCLE
+CYCLE HERE
 ```
 
-## 
+## Banker's Algorithm
 
-Write details here...
+
+### Data Structures
+
+1. **NAME.** Definition.
+
+2. **NAME.** Definition.
+
+3. **NAME.** Definition.
+
+4. **NAME.** Definition.
+
+### Safety Algorithm Example
+
+```
+SAMPLE HERE
+```
+
 

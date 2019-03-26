@@ -40,16 +40,48 @@ useful as a reference.
 
 **CHECKPOINT:** Ask your instructor if you have any questions.
 
-1. In `SUBMISSION.md`, indicate the file where the machine code for `setjmp` is defined.
-   You should probably note the command(s) you used to find it.
+1. Create a copy of `deadlock.c` called `safety.c`. 
+
+1. In this checkpoint, you will be implementing part of the banker's algorithm for
+   avoiding deadlocks. Several data structures must be maintained to implement
+   the banker's algorithm. Under "Data Structures" sub-heading of 
+   "Banker's Algorithm" in `SUBMISSION.md`, list and define these data
+   structures.
    
-1. **Before 3:15 PM (or 11:55 for partial)**, double check that your group member names are listed in 
-   `SUBMISSION.md` as well as the piece of paper that your instructor has at the front of the room, then
-   submit your activity attempt using the `submit` command. From the parent directory:
+1. In `safety.c`, implement the Banker's Safety Algorithm as described by
+   Silberschatz, Gagne, and Galvin in Ch. 8.6.3.1.
+   
+   * Your program should print `SAFE` or `UNSAFE` before and after each resource
+     is acquired by a thread.
+   * You should test it for `2 ≤ NTHREAD ≤ 5` and resource instance counts as
+     high as `2`.
+   
+1. Under "Safety Algorithm Examples" sub-heading of "Banker's Algorithm" in 
+   `SUBMISSION.md`, provide an example output that demonstrate that not all 
+   unsafe states lead to deadlock.
+   
+**CHECKPOINT**
+
+1. Create a copy of `safety.c` called `banker.c`.
+
+1. In `banker.c`, implement the Banker's Resource-Request Algorithm as described by
+   Silberschatz, Gagne, and Galvin in Ch. 8.6.3.2.
+   
+   * You should test it for `2 ≤ NTHREAD ≤ 5`.
+   * While not very technical, you can be somewhat confident that your 
+     implementation is correct if no deadlock occurs within the first 30 seconds
+	 of execution.
+
+1. **Before 11:55 PM on WED**, double check that your group member names are listed 
+   in `SUBMISSION.md` as well as the piece of paper that your instructor has at the 
+   front of the room, then submit your activity attempt using the `submit` command. 
+   From the parent directory:
    
    ```
    $ submit csx730-deadlock csx730
    ```
+   
+1. Remember to share this directory with your group members!
 
 <hr/>
 
