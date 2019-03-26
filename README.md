@@ -20,16 +20,23 @@ message or more commonly releasing a lock.
    
 ### Activity Questions
 
-This activity is open book, open notes, and asking your instructor questions is allowed. You may
-find the assembly notes provided in recent lecture modules on eLC useful. 
+This activity is open book, open notes, and asking your instructor questions is allowed.
+You may find Ch. 8 of _Operating System Concepts_ by Silberschatz, Gagne, and Galvin
+useful as a reference.
 
 1. Modify `SUBMISSION.md` to include the name, UGA ID number, course number (4730 or 6730) 
    for each group member. Then, **sign the piece of paper that your instructor has at the front 
    of the room.**
    
-1. Experiment with `deadlock.c`. 
-
-1. Make sure your program compiles, assembles, and links before continuing.
+1. Under "Necessary Conditions" in `SUBMISSION.md`, list and define the four
+   conditions that must hold simnultaneously in a system for a deadlock to 
+   arise, according to Silberschatz, Gagne, and Galvin.
+   
+1. Experiment with `deadlock.c` by increasing `NTHREAD` and witnessing deadlocks.
+   Under the sub-headings of "Resource Allocation Graph" in `SUBMISSION.md`, provide
+   example output produced by the program, the edge set for the resource allocation
+   graph induced by the output, and the observed cycle. An example for `NTHREAD = 2`
+   is provided but should be replace with your own example.
 
 **CHECKPOINT:** Ask your instructor if you have any questions.
 
