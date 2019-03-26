@@ -28,9 +28,9 @@ useful as a reference.
    for each group member. Then, **sign the piece of paper that your instructor has at the front 
    of the room.**
    
-1. Under "Necessary Conditions" in `SUBMISSION.md`, list and define the four
-   conditions that must hold simnultaneously in a system for a deadlock to 
-   arise, according to Silberschatz, Gagne, and Galvin.
+1. ~Under "Necessary Conditions" in `SUBMISSION.md`, list and define the four~
+   ~conditions that must hold simnultaneously in a system for a deadlock to~
+   ~arise, according to Silberschatz, Gagne, and Galvin.~
    
 1. Experiment with `deadlock.c` by increasing `NTHREAD` and witnessing deadlocks.
    Under the sub-headings of "Resource Allocation Graph" in `SUBMISSION.md`, provide
