@@ -72,6 +72,8 @@ useful as a reference.
      implementation is correct if no deadlock occurs within the first 30 seconds
 	 of execution.
 
+**SUBMISSION**
+
 1. **Before 11:55 PM on WED**, double check that your group member names are listed 
    in `SUBMISSION.md` as well as the piece of paper that your instructor has at the 
    front of the room, then submit your activity attempt using the `submit` command. 
