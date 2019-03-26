@@ -4,8 +4,11 @@
 #include <semaphore.h>
 #include "deadlock.h"
 
+// number of instances of r0 and r1
 #define R0LIMIT 1
 #define R1LIMIT 1
+
+// number of threads
 #define NTHREAD 1
 
 sem_t r0;
